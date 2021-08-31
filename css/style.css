@@ -17,6 +17,18 @@
 10) TOKYO MAGIC CURSOR
 11) TOKYO MEDIA QUERIES (FOR SMALL DEVIVES)
 
+figure {
+    display: inline-block;
+    
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+ 
+    text-align: center;
+}
 
 /*---------------------------------------------------*/
 /*	01) TOKYO BASE
