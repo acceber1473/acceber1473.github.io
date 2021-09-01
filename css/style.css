@@ -30,10 +30,17 @@ figure figcaption {
     text-align: center;
 }
 
+
 /*---------------------------------------------------*/
 /*	01) TOKYO BASE
 /*---------------------------------------------------*/
-
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
 html {
 	overflow-x: hidden;
 	padding: 0px;
