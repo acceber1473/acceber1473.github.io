@@ -1846,7 +1846,7 @@ body.modal{
 	.tokyo_tm_portfolio{padding-top: 170px;}
 	.tokyo_tm_contact{padding-top: 170px;}
 	.tokyo_tm_news{padding-top: 170px;}
-	.tokyo_tm_modalbox .box_inner{width: 700px;} /* changed from 500px to 700px*/
+	.tokyo_tm_modalbox .box_inner{width: 500px;} /* changed from 500px to 700px*/
 	.tokyo_tm_modalbox .close{margin-left: 5px;}
 	.tokyo_tm_modalbox .close .svg{width: 25px;height: 25px;}
 	.tokyo_tm_modalbox .main_details{flex-direction: column;}

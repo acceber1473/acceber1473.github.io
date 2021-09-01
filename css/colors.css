@@ -44,6 +44,32 @@ body.dark .tokyo_tm_all_wrap[data-color="blue"] .tokyo_tm_button a{color: #fff;}
 body.dark .tokyo_tm_all_wrap[data-color="blue"] .leftpart .menu ul li.active a{color: #4169e1;}
 body.dark .tokyo_tm_all_wrap[data-color="blue"] .leftpart .menu ul li a:hover{color: #4169e1;}
 
+.tokyo_tm_all_wrap[data-color="blue2"] .cursor-inner.cursor-hover{background-color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .cursor-outer{border-color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .cursor-inner{background-color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_home .details .name span{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_home .social ul li a:hover{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .leftpart .menu ul li.active a{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .leftpart .menu ul li a:hover{color: #1e55fd;}
+#1e55fd.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_about .description .name span{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_button a{background-color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_about .description .right > ul > li span{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_about .description .right > ul > li a:hover{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_portfolio .portfolio_filter ul li a:hover{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_title span{background-color: rgba(65,105,225,.04);}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_news ul li .details .date a:hover{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_news ul li .details .title a:hover{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_modalbox_news .date a:hover{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_modalbox_news .main_content .icon .svg{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .progress_inner .background .bar_in{background: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_modalbox_about .counter ul li h3{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_modalbox_news .news_share ul li a:hover{color: #1e55fd;}
+.tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_portfolio .portfolio_filter ul li a.current{color: #1e55fd;}
+body.dark .tokyo_tm_all_wrap[data-color="blue2"] .leftpart .copyright a:hover{color: #1e55fd;}
+body.dark .tokyo_tm_all_wrap[data-color="blue2"] .tokyo_tm_button a{color: #fff;}
+body.dark .tokyo_tm_all_wrap[data-color="blue2"] .leftpart .menu ul li.active a{color: #1e55fd;}
+body.dark .tokyo_tm_all_wrap[data-color="blue2"] .leftpart .menu ul li a:hover{color: #1e55fd;}
+
 
 .tokyo_tm_all_wrap[data-color="green"] .cursor-inner.cursor-hover{background-color: #66B95C;}
 .tokyo_tm_all_wrap[data-color="green"] .cursor-outer{border-color: #66B95C;}
