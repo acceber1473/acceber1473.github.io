@@ -282,7 +282,7 @@
 										</div>
 									</div>
 								</li>
-								<!----------- L1 Rocket --------------->
+								<!----------- /L1 Rocket --------------->
 								<!---------- Drill Teardown ---------->
 								<li class="hardware software featured all">
 									<div class="inner">
@@ -446,12 +446,12 @@
 								</li>
 								<!--------- /INTERNSHIP '20 -------->
 								<!---------- Play It!!!! '20 ---------->
-								<li class="electronics featured all">
+								<li class="electronics software featured all">
 									<div class="inner">
 										<div class="entry tokyo_tm_portfolio_animation_wrap" data-title="Play It! An Electromechanical Game" data-category="Electronics">
 											<a class="popup_info" href="#">
 												<img src="img/thumbs/1-1.jpg" alt="" />
-												<div class="main_image" data-img-url="img/portfolio/hello.mp4"></div>
+												<div class="main_image" data-img-url="img/portfolio/playit.gif"></div>
 											</a>
 										</div>
 									</div>
@@ -466,9 +466,9 @@
 											<div class="main_details">
 												<div class="textbox">
 													<p>Play It! is an electromechanical game designed for my electronics class Fall 2020. The game requires players to repeat a sequence of randomly generated notes using the push buttons on the breadboard for a total of 7 times in a row to beat the game.</p>
-													<p></p>The main electromechanical components include an Arduino MKR 1010 to power the whole system, a servo motor driving the score wheel, a piezo buzzer as a speaker, pushbuttons for user input, and LEDs to indicate which buttons are pushed.
-													<p></p>The computer screen on the right displays the Arduino IDE's serial monitor to make the game more cohesive, but it can also be easily played without the computer interface.
-													<p></p>The Arduino: The Arduino powers the whole game by providing 5V and ground to the +/- rails of the breadboard and the servo motor. All the pushbuttons, LEDs, and piezo buzzer are connected to digital pins on the Arduino, with the servo connected to a pulse width modulation (PWM) pin. The Arduino code sets the pushbuttons as inputs whereas the LEDs and buzzer are outputs.
+													<p>The main electromechanical components include an Arduino MKR 1010 to power the whole system, a servo motor driving the score wheel, a piezo buzzer as a speaker, pushbuttons for user input, and LEDs to indicate which buttons are pushed.</p>
+													<p>The computer screen on the right displays the Arduino IDE's serial monitor to make the game more cohesive, but it can also be easily played without the computer interface.</p>
+													<p>The Arduino: The Arduino powers the whole game by providing 5V and ground to the +/- rails of the breadboard and the servo motor. All the pushbuttons, LEDs, and piezo buzzer are connected to digital pins on the Arduino, with the servo connected to a pulse width modulation (PWM) pin. The Arduino code sets the pushbuttons as inputs whereas the LEDs and buzzer are outputs.</p>
 													<p>The Breadboard: The main part of the circuit consists of 5 buttons and LEDs- the buttons are pulled up to 5 Volts through a 10K resistor and the LEDs are connected to the Arduino pins via a 1k resistor in series. When a button is pushed, the corresponding LED will light up and the buzzer will output the corresponding note set by the code. </p>
 													<p>The Servo Motor: The motor drives the score wheel and will increase by 45 degrees, which is the angle of each wedge on the wheel, for each +1 score. If the player incorrectly plays back a note sequence, the motor is programmed to spin back to the starting position, or zero score. Below is an image of how the servo motor was fit inside a box that served as the frame of the wheel.</p>
 												</div>
@@ -493,11 +493,17 @@
 															<span class="first">Hardware</span>
 																<ul style="PADDING-LEFT: 25px">
 																	<li>Arduino MKR1010</li>
-																	<li>Servo Motor/li>
+																	<li>Servo Motor</li>
 																	<li>Piezo Buzzer</li>	
 																	<li>Pushbuttons</li>
 																	<li>LEDs</li>
 																</ul>
+														</li>
+														<li>
+															<span class="first">Code</span>
+															<ul class="share">
+																<li><a href="https://github.com/acceber1473/ME30/tree/main/Play%20It!">Link to GitHub</a></li>
+															</ul>
 														</li>
 													</ul>
 												</div>
@@ -509,6 +515,77 @@
 									</div>
 								</li>
 								<!--------- /Play It!! '20 -------->
+								<!---------- The Eye ---------->
+								<li class="electronics hardware software featured all">
+									<div class="inner">
+										<div class="entry tokyo_tm_portfolio_animation_wrap" data-title="The Eye: A Mechanical Iris" data-category="Electronics">
+											<a class="popup_info" href="#">
+												<img src="img/thumbs/1-1.jpg" alt="" />
+												<div class="main_image" data-img-url="img/portfolio/hello.mp4"></div>
+											</a>
+										</div>
+									</div>
+									<div class="details_all_wrap">
+										<div class="popup_details">
+											<iframe style="display: block; margin: auto;"
+											width = "700" height = "350"
+											src="https://www.youtube.com/embed/_CRtaVYgQiY?autoplay=1&mute=1">		
+											</iframe>
+											<br />
+											<div class="portfolio_main_title"></div>
+											<div class="main_details">
+												<div class="textbox">
+													<p>The Eye is the final project completed for my Fall 2020 electronics class. I worked with a partner to create a public art installation that utilized server-client infrastructure by connecting two Raspberry Pis (one acting as the sensor, another as the actuator) over the internet. What made this project especially interesting and challenging was that my partner, and therefore half of the project, was located 120 miles away from me.</p>
+													<p>My partner's Raspberry Pi served as the actuator (a stepper motor attached to the eye), whereas my Raspberry Pi was connected to our light sensor. The premise of our design is that when a certain light lux threshold is detected by the sensor, the stepper motor will rotate accordingly and thus open or close the blades of the mechanical iris. Our project was able to run without any connection from our computers; we just needed power sources for the eye and the sensor.</p>
+													<p>The Sensor: The light sensor is powered by the Raspberry Pi and the data received was able to be accessed on a web server using port forwarding on my wifi router. We tested the sensor at different points of the day and found a reasonable lux range, which was then used to calculate rotational degrees for the stepper motor.</p>
+													<p>The Actuator: My partner's Raspberry Pi was able to access my Pi's IP address and receive the light lux data. Our code then took those lux values, translated them to stepper motor degrees, which then would close or open the eye's blades.</p>
+													<p>Unfortunately, we ran into some issues with our fabrication, resulting in the motor not providing enough torque to open and close the blades. Our eye is able to open and close manually, and the stepper motor is able to correctly rotate based on lux values based on outputting values using code. However, more work is needed to make the system fully operational. We learned a lot from our mistakes, and this project overall, especially in terms of client-server infrastructure and combining hardware with software.</p>
+												</div>
+												<div class="detailbox">
+													<ul>
+														<li>
+															<span class="first">Description</span>
+															<span>A moving art installation utilizing server & client infrastructure, inspired by a mechanical iris and spanning 120 miles.</span>
+														</li>
+														
+														<li>
+															<span class="first">Date</span>
+															<span>Fall 2020</span>
+														</li>
+														<li>
+															<span class="first">Software</span>
+																<ul style="PADDING-LEFT: 25px">
+																	<li>Arduino</li>
+																	<li>Python</li>
+																</ul>
+														</li>
+														<li>
+															<span class="first">Hardware</span>
+																<ul style="PADDING-LEFT: 25px">
+																	<li>Arduino MKR1010</li>
+																	<li>Raspberry Pi</li>
+																	<li>Servo Motor</li>
+																	<li>I2C Light Sensor</li>	
+																	<li>Servo Motor</li>
+																	<li>Laser Cutting</li>
+																</ul>
+														</li>
+														<li>
+															<span class="first">Code</span>
+															<ul class="share">
+																<li><a href="https://github.com/acceber1473/ME30/tree/main/The%20Eye">Link to GitHub</a></li>
+															</ul>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<p style="text-align: center; padding-bottom: 15px; padding-right: 10px; float: left; display: block;"><img src="img/portfolio/playitfront.jpg" alt="Game Setup with Arduino, Breadboard Circuit, and Servo Motor Score Wheel" width="490" height="276"  /><br /><span style="font-size: small;">Game Setup with Arduino, Breadboard Circuit, and Servo Motor Score Wheel</span></p>
+											<p style="text-align: center; padding-bottom: 15px; padding-left: 10px; float: right; display: block;"><img src="img/portfolio/playitback.jpg" alt="Rear View of Score Wheel and Servo Motor" width="490" height="272"  /><br /><span style="font-size: small;">Rear View of Score Wheel and Servo Motor	</span></p>
+											
+										</div>
+									</div>
+								</li>
+								<!--------- /The Eye -------->
 							</ul>
 						</div>
 					</div>
