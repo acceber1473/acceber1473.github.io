@@ -34,7 +34,7 @@ figure figcaption {
 /*---------------------------------------------------*/
 /*	01) TOKYO BASE
 /*---------------------------------------------------*/
-img {
+img {    /* added this i hope it doesn't mess things up */
     padding: 0;
     display: block;
     margin: 0 auto;
