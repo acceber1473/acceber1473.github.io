@@ -914,7 +914,7 @@ h6 { font-size: 16px; }
 	float: left;
 }
 .tokyo_tm_portfolio{
-	width: 100vw; /* changed from 100% to 100vw*/
+	width: 100%; /* changed from 100% to 100vw*/
 	height: auto;
 	clear: both;
 	float: left;
@@ -1001,7 +1001,7 @@ h6 { font-size: 16px; }
 	
 }
 .tokyo_tm_modalbox .details_all_wrap{
-	width: 100vw; /* changed from 100% to 100vw*/
+	width: 100%; /* changed from 100% to 100vw*/
 	height: auto;
 	clear: both;
 	float: left;
