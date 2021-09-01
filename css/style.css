@@ -1888,6 +1888,6 @@ body.modal{
 	.tokyo_tm_modalbox_about .counter ul{margin: 0px;}
 	.tokyo_tm_modalbox_about .counter ul li{width: 100%;padding-left: 0px;}
 	.tokyo_tm_modalbox .box_inner{width: 500px;} /* changed from 300px to 500px*/
-	.tokyo_tm_modalbox_about .box_inner{width: 500px;}
+	.tokyo_tm_modalbox_about .box_inner{width: 400px;}
 	.tokyo_tm_modalbox .description_wrap{padding: 20px;}
 }
